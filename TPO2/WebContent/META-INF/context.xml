@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context docBase="D:\Dokumenty\Dokumenty\PJATK\sem7 internetowe\TPO\projekty\TPO2_PA_S6034\build">
+
+  <Resource name="jdbc/ksidb" auth="Container" 
+            type="javax.sql.DataSource"
+            description="Baza danych ksiazek" 
+            driverClassName="org.apache.derby.jdbc.ClientDriver"
+            url="jdbc:derby://localhost/ksidb"
+            username="APP"
+            password="user"
+            maxActive="8" /> 
+</Context>
